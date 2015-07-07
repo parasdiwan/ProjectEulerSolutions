@@ -1,0 +1,10 @@
+This is regarding the very first problem of euler project. 
+The problem statement goes like this.
+________________________________________________________________________________________________________________________________
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below 1000.
+________________________________________________________________________________________________________________________________
+
+In this program, we calculated the number of factors of 3 below the limit (which is 1000 in this case) by simply dividing limit by 3 to obtain a quotient and then similarly for 5 and 15.
+Now to obtain the sum we need to add all factors of 3 and 5 but subtract all factors of 15 from the number. Because all factors of 15 are being counted twice (once as factors of 3 and also as factors of 5).  
