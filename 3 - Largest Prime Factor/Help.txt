@@ -1,0 +1,15 @@
+Problem link = https://projecteuler.net/problem=3
+
+Largest prime factor
+Problem 3
+The prime factors of 13195 are 5, 7, 13 and 29.
+
+What is the largest prime factor of the number 600851475143 ?
+___________________________________________________________________________
+
+In this program objective is to obtain prime factors of the gigantic number given to us.
+Limit the loop till the square root of the number for which you have to find the factors because if there are no factors of the number till the square root of the number, this means that the number will be prime.
+Whenever we find a factor to this number and if it is prime, we divide it by that factor as many number of times it can be divided(in order to remove extra powers of the same number) and obtain the quotient after dividing it.
+
+Again we start finding the factors to the new quotient recieved but this time we start finding factors from the lastPrime number which we have stored as global variable because we have already checked for the factors below the largest prime number we obtained.
+For more clarity contact me on - prs.diwan@gmail.com
