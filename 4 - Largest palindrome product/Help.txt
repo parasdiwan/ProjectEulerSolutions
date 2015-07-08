@@ -1,0 +1,15 @@
+Problem Link = https://projecteuler.net/problem=2
+Largest palindrome product
+Problem 4
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+
+Find the largest palindrome made from the product of two 3-digit numbers.
+________________________________________________________________________________________
+
+When 3 digits numbers are multiplied, often we obtain products of 5 or 6 digits. Hence  considering the palindromes of 6 digits is good place to start.
+Start with palindrome 999999 and then find if we can obtain 3 factors of 3 digits. 
+After that we get the next largest palindrome 998899 by decreasing the first half of the palindrome by one (999-1) = 998 and attach to it reverse digits.
+After that we check for palindromes 997799, 996699, 995599, 994499 and so on...
+
+For obtaining factors -> check for factors from numbers from square root of the number to down to 100 which is the smallest number of 3 digits. Because we are concerned with only factors of 3 digits. 
+
